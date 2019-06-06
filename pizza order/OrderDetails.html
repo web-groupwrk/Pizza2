@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+	background-color:black;
+	text-align:center;
+	
+}
+nav ul{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: black;
+ padding:25px;
+ padding-bottom:20px;
+}
+
+nav ul li{
+	
+	width:100px;
+	float:right;
+}
+nav a{
+ display:block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+nav a:hover{
+background-color:white;	
+color:black;
+border-radius: 0;
+}
+</style>
+<nav>
+ <ul>
+  <li><a href="#Dogy">LOG OUT</a></li>
+  <li><a href="#About">Dashboard Orders</a></li>
+  <li><a href="#manager">Name</a></li>
+ 
+</ul> 
+</nav>
+</head>
+<body>
+  <h1>Quantity</h1>
+
+  <form action="/action_page.php" method="get">
+  <input type="number" name="fname"> Large Pizza<br>
+  <input type="number" name="lname"> Last name<br>
+  <button type="submit">Submit</button><br>
+  
+</form>
+
+</body>
